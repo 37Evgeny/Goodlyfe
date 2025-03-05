@@ -1,0 +1,46 @@
+.header__container {
+    background: rgb(228, 48, 113);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.no-space {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.logo__left {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 109.5%;
+    color: white;
+}
+
+.logo__right {
+    color: rgb(255, 193, 216);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 109.5%;
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 109.5%;
+    letter-spacing: 0px;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.header__link {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+}
+

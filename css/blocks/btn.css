@@ -1,0 +1,36 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 62px;
+  gap: 10px;
+  border: none;
+  color: rgb(247, 247, 252);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-align: center;
+  border-radius: 40px;
+  
+}
+
+.btn__white {
+    color: rgb(228, 48, 113);
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(228, 48, 113);
+}
+
+.btn__pink {
+    background: rgb(228, 48, 113);
+}
+
+.btn__pink:hover {
+    background: rgb(190, 40, 94);
+}
+
+.btn__white:hover {
+    color: rgb(228, 48, 113);
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(190, 40, 94);
+}
