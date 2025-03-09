@@ -14,7 +14,7 @@
 }
 
 .footer__buttom {
-    padding: 0px 165px;
+  padding: 0px 165px;
 }
 
 .item {
@@ -53,7 +53,9 @@
 }
 
 .info__soc__cnt {
-    padding-top: 12px;
+  padding-top: 12px;
+  display: flex;
+  gap: 25px;
 }
 
 .item {
@@ -116,7 +118,7 @@
 }
 
 .footer__buttom {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
 }
