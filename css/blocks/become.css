@@ -1,0 +1,35 @@
+.become {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.become__container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.become__title {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.become__text {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 10px;
+}

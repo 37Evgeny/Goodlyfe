@@ -1,19 +1,19 @@
 .welcome {
-    display: flex;
-    position: relative;
-    text-align: center;
+  display: flex;
+  position: relative;
+  text-align: center;
 }
 
 .welcome__background {
-    width: 100%; /* Ширина изображения на 100% */
-    height: auto; /* Автоматическая высота */
+  width: 100%; /* Ширина изображения на 100% */
+  height: auto; /* Автоматическая высота */
 }
 
 .welcome__title {
-position: absolute;
-    top: 40%; /* Положение заголовка */
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 40%; /* Положение заголовка */
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: Poppins;
   font-size: 70px;
   font-weight: 700;
@@ -24,7 +24,20 @@ position: absolute;
 }
 
 .btn__welcome {
-    position: absolute;
-    top: 62%; /* Положение заголовка */
-    left: 43%;
+  position: absolute;
+  top: 65%; /* Центрирование по вертикали */
+  left: 50%; /* Центрирование по горизонтали */
+  transform: translate(-50%, -50%); /* Смещение на 50% по ширине и высоте */
 }
+
+.right {
+  color: rgb(255, 193, 216);
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+

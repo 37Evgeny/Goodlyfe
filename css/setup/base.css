@@ -17,6 +17,14 @@ a{
     color:currentColor;
 }
 
+p {
+    margin: 0; /* Убираем отступы сверху и снизу */
+}
+
+h2 {
+    margin: 0; /* Убираем отступы сверху и снизу */
+}
+
 .visually-hidden{
     position: absolute;
     width: 1px;

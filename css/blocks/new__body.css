@@ -1,0 +1,60 @@
+.new__body__left,
+.new__body__right {
+  flex: 1; /* Каждая сторона занимает одинаковое пространство */
+  display: flex; /* Используем flex для внутреннего выравнивания */
+  align-items: center; /* Центрирование по вертикали */
+  justify-content: center; /* Центрирование по горизонтали */
+  flex-direction: column;
+}
+
+.new__body {
+  display: flex;
+}
+
+.new__body__left {
+  position: relative;
+}
+
+.new__body__text {
+  max-width: 540px;
+}
+
+.new__body__right {
+  align-items: start;
+}
+
+.new__body__title {
+  color: rgb(228, 48, 113);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.new__body__text {
+  margin-bottom: 30px;
+  color: rgb(66, 66, 66);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.new__body__left {
+    position: relative;
+    height: 720px;
+}
+
+.new__body__img__one {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.new__body__img__two {
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+}

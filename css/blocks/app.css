@@ -1,0 +1,57 @@
+.app__left,
+.app__right {
+  flex: 1; /* Каждая сторона занимает одинаковое пространство */
+  display: flex; /* Используем flex для внутреннего выравнивания */
+  align-items: start; /* Центрирование по вертикали */
+  justify-content: center; /* Центрирование по горизонтали */
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  height: 491px;
+  background-color: #e43071;
+}
+
+.app__left {
+  margin-left: 20%;
+  gap: 5px;
+}
+
+.app__text {
+  width: 489px;
+}
+
+.app__title {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.app__text {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.app__download {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.app__right {
+  position: relative;
+}
+
+.app__right__img {
+  position: absolute;
+  top: -10%;
+}
